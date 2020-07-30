@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather Journal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    
+    <body>
+        <div class='all'>
+            <h1 class='center white'>Weather Journal App</h1>
+            <div>
+                <div class='dataForm'>
+                    <div id="err"></div>
+                    <div class="formGroup">
+                        <label>Zip Code</label>
+                        <input type="text" id="zip" class='formIn' placeholder="enter zip code" required>
+                    </div>
+                    <div class="formGroup">
+                        <label>Your feeling</label>
+                        <textarea type="text" id="feelings" class='formIn' placeholder="enter your feelings" rows="5"></textarea>
+                    </div>
+                    <button id="generate" class="sButton center fullwidth white" type = "submit"> Submit </button>
+                </div>
+            </div>
+        </div>
+        <div id="overlay">
+            <div id="resultContent" class ="formGroup">
+                <h2 class="center">Most Recent Entry</h2>
+                <div id="entryHolder" class="formIn">
+                    <div id="date">Date:</div> 
+                    <div id="temp">Temprature:</div>
+                    <div id="content">Content:</div>
+                </div>
+                <button id="close" class="sButton center fullwidth white" type = "submit"> Close </button>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>

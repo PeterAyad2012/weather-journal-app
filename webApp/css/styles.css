@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0%;
+    padding: 0%;
+    background-image: url(../images/clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:98vh;
+    font-size: 18px;
+}
+
+.white{
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+    .all{
+        background-color: #0A2033;
+        opacity: .9;
+        width:100%;
+        margin: 0%;
+        padding: 15%;
+    }
+
+            .dataForm{
+                background-color: #AEE8FB;
+                padding: 5%;
+                border-radius: 20px;
+            }
+
+                .formGroup{
+                    margin-bottom: 2%;
+                }
+
+                    label{
+                        margin: 1%;
+                        display: inline-block;
+                    }
+
+                    .formIn{
+                        border: 1px solid #ced4da;
+                        background-color: #FEF9F0;
+                        border-radius: 7px;
+                        display: block;
+                        padding: 1% 2%;
+                        margin-bottom: 2%;
+                        width:100%;
+                        line-height: 1.5;
+                    }
+
+        .sButton{
+            padding: 2%;
+            background-color: #00BCD1;
+            border: 1px solid #ced4da;
+            border-radius: 7px;
+            font-size: 18px;
+        }
+
+    #overlay{
+        z-index: 1;
+        display: none;
+        position: fixed;
+        background-color: rgba(0,0,0,0.4);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+
+        #resultContent {
+            background-color: rgba(174,232,251,0.8);
+            margin: 12%; 
+            padding: 20px;
+            border: 1px solid #888; 
+            border-radius: 20px;
+        }
